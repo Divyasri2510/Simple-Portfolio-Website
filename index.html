@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Divya Sri Lingala – Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- ===== HEADER + NAVIGATION ===== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Menu</div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Overlay (for background dim when menu opens) -->
+<div id="overlay"></div>
+
+<!-- ===== HOME SECTION ===== -->
+<section id="home" class="section home fade-in">
+    <h1>Hello, I'm <span class="highlight">Sai Divya Sri Lingala</span></h1>
+
+    <img src="../images/profile.png" alt="Professional headshot" class="profile-photo">
+
+    <p class="intro">
+        I am an enthusiastic developer with a strong interest in creating responsive, accessible, and user-focused digital solutions. I enjoy turning ideas into functional designs and transforming concepts into polished projects. Every challenge I take on helps me improve my creativity, strengthen my technical skills, and better understand how technology can create real impact.
+    </p>
+
+    <a href="../images/resume.pdf" class="resume-btn" download>Download My Resume</a>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="section about fade-in">
+    <h1>About Me</h1>
+
+    <p>
+        I’m a passionate learner who loves exploring technology and creating meaningful digital experiences. Whether it’s designing a clean interface, writing efficient code, or experimenting with new tools, I enjoy building projects that are simple, useful, and visually appealing. With every project, I aim to grow my skills and push myself toward becoming a well-rounded developer. I’m always excited to learn, improve, and take on new challenges.
+    </p>
+
+    <br>
+    <h3>Background</h3>
+    <p>
+        I come from a strong computer science background where I’ve consistently explored technologies 
+        that help solve real-world problems. Over the years, I’ve strengthened my core skills in software development,
+        databases, front-end engineering, and cloud computing.
+    </p>
+    </br>
+
+    <h3>Interests</h3>
+    <ul style="list-style: none; padding-left: 0;">
+        <li>Building interactive and accessible web applications</li>
+        <li>Exploring modern JavaScript features and API integrations</li>
+        <li>Working with databases, SQL queries, and data management</li>
+        <li>Designing responsive layouts using Flexbox, Grid, and modern CSS</li>
+        <li>Learning about cloud computing, automation, and AI tools</li>
+        <li>Studying UI/UX principles and how design impacts user behavior</li>
+    </ul>
+</section>
+
+<!-- ===== PROJECTS SECTION ===== -->
+<section id="projects" class="section projects fade-in">
+    <h1>Projects</h1>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="../images/ecofriendly.png" alt="Eco-Friendly e-Lounge project">
+            <h3>Eco-Friendly e-Lounge</h3>
+            <p>Uber-like service with mobile workspaces, real-time driver distance, and ETA estimation.</p>
+            <a href="https://github.com/Divyasri2510/Eco-Friendly-E-Lounge-Redefining-Mobile-Leisure-And-Workspaces">Source code</a>
+        </div>
+
+        <div class="project-card">
+            <img src="../images/translator.png" alt="Multi-language translator">
+            <h3>Multi-Language Translator</h3>
+            <p>Web app that translates text into multiple languages using an API.</p>
+            <a href="https://github.com/Divyasri2510/multi-language-translator">Source Code</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== SKILLS SECTION ===== -->
+<section id="skills" class="section skills fade-in">
+    <h1>Skills</h1>
+
+    <ul class="skills-list">
+        <li><strong>HTML5</strong> – Semantic design & accessibility</li>
+        <li><strong>CSS3</strong> – Flexbox, Grid, responsive layouts</li>
+        <li><strong>JavaScript</strong> – DOM, events, forms, APIs</li>
+        <li><strong>SQL / Oracle</strong> – Queries, PL/SQL, triggers</li>
+        <li><strong>Python</strong> – Data processing & automation</li>
+        <li><strong>Communication</strong> – Writing & presentation</li>
+    </ul>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="section contact fade-in">
+    <h1>Contact Me</h1>
+
+    <form id="contactForm" aria-label="Contact Form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p class="social-links">
+        Email: <a href="mailto:divyasri@example.com">divyasri@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/lingala-divya-sri-92253a2ba/" target="_blank">Lingala Divya sri</a><br>
+        GitHub: <a href="https://github.com/Divyasri2510">Divyasri2510</a>
+    </p>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2025 Sai Divya Sri Lingala • Designed with accessibility & responsiveness</p>
+</footer>
+
+<!-- JS FILE (Correct place) -->
+<script src="../js/script.js"></script>
+
+</body>
+</html>
